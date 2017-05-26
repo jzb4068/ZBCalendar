@@ -1,7 +1,5 @@
 ![image](https://raw.githubusercontent.com/jzb4068/ZBCalendar/master/ZBCalendar/GIF/演示.gif)
 ## **示例代码**：
-
-### 初始化并设置header与bar
 ```objc
 ZBCalendarCollectionView*collection = [[ZBCalendarCollectionView alloc]initWithFrame:CGRectMake(0, 100, CGRectGetWidth(self.view.frame), 80)];
     collection.selectedBlock = ^(NSDate* date){
